@@ -110,6 +110,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -134,6 +142,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -368,6 +384,18 @@
                 {
                 }
             }
+            "{994432C3-9487-495D-8656-3E829A8DBDDE}:_D70BF4C05D204952B3569CB250C9A47D"
+            {
+            "DefaultLocation" = "8:[SendToFolder]"
+            "Name" = "8:SendTo"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:NEWPROPERTY1"
+                "Folders"
+                {
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -516,7 +544,21 @@
             "Target" = "8:_ED162485A0AE4AC892FE179C0B466D3C"
             "Folder" = "8:_725E5F7715DD4692BAA4C0DAC0328B08"
             "WorkingFolder" = "8:_72AA67C0482044058F265E20BA58F682"
-            "Icon" = "8:"
+            "Icon" = "8:_A7F3B39BAF8A47269FCB88FEA4DFB205"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8B74C0076B3046898C1C2A193028A94A"
+            {
+            "Name" = "8:Aspen Version Checker"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_ED162485A0AE4AC892FE179C0B466D3C"
+            "Folder" = "8:_D70BF4C05D204952B3569CB250C9A47D"
+            "WorkingFolder" = "8:_72AA67C0482044058F265E20BA58F682"
+            "Icon" = "8:_A7F3B39BAF8A47269FCB88FEA4DFB205"
             "Feature" = "8:"
             }
         }
