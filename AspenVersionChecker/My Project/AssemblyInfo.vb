@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("Aspen Version Checker")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("Masahiro Yoshida")>
+<Assembly: AssemblyCompany("yoshida-dot-ai")>
 <Assembly: AssemblyProduct("Aspen Version Checker")>
 <Assembly: AssemblyCopyright("Copyright ©  2025 Masahiro Yoshida")>
 <Assembly: AssemblyTrademark("")>
@@ -28,5 +28,5 @@ Imports System.Runtime.InteropServices
 '      Revision
 '
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.0.0.1")>
+<Assembly: AssemblyFileVersion("1.0.0.1")>
